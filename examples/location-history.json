@@ -1,0 +1,1017 @@
+[
+  {
+    "endTime": "2026-05-16T09:05:00.000+09:00",
+    "startTime": "2026-05-16T07:30:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.719818",
+        "semanticType": "Home",
+        "placeID": "example-home-nagoya",
+        "placeLocation": "geo:35.163900,136.958200"
+      },
+      "probability": "0.786204"
+    }
+  },
+  {
+    "endTime": "2026-05-16T09:13:00.000+09:00",
+    "startTime": "2026-05-16T09:05:00.000+09:00",
+    "activity": {
+      "probability": "0.964443",
+      "end": "geo:35.163000,136.953200",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.720282"
+      },
+      "distanceMeters": "503.971325",
+      "start": "geo:35.163900,136.958200"
+    }
+  },
+  {
+    "endTime": "2026-05-16T09:13:00.000+09:00",
+    "startTime": "2026-05-16T09:05:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.163600,136.956533",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.163300,136.954867",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.163000,136.953200",
+        "durationMinutesOffsetFromStartTime": "8"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T18:00:00.000+09:00",
+    "startTime": "2026-05-16T09:05:00.000+09:00",
+    "timelineMemory": {
+      "destinations": [
+        {
+          "identifier": "example-oasis-21"
+        },
+        {
+          "identifier": "example-osu-kannon"
+        },
+        {
+          "identifier": "example-atsuta-jingu"
+        },
+        {
+          "identifier": "example-nagoya-station"
+        }
+      ],
+      "distanceFromOriginKms": "9"
+    }
+  },
+  {
+    "endTime": "2026-05-16T09:27:00.000+09:00",
+    "startTime": "2026-05-16T09:16:00.000+09:00",
+    "activity": {
+      "probability": "0.936203",
+      "end": "geo:35.170200,136.908500",
+      "topCandidate": {
+        "type": "in subway",
+        "probability": "0.716240"
+      },
+      "distanceMeters": "4574.873857",
+      "start": "geo:35.163000,136.953200"
+    }
+  },
+  {
+    "endTime": "2026-05-16T09:27:00.000+09:00",
+    "startTime": "2026-05-16T09:16:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.163000,136.953200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.165200,136.947567",
+        "durationMinutesOffsetFromStartTime": "1"
+      },
+      {
+        "point": "geo:35.167400,136.941933",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.169600,136.936300",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.169900,136.931467",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.170200,136.926633",
+        "durationMinutesOffsetFromStartTime": "7"
+      },
+      {
+        "point": "geo:35.170500,136.921800",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.170350,136.915150",
+        "durationMinutesOffsetFromStartTime": "9"
+      },
+      {
+        "point": "geo:35.170200,136.908500",
+        "durationMinutesOffsetFromStartTime": "11"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T09:33:00.000+09:00",
+    "startTime": "2026-05-16T09:27:00.000+09:00",
+    "activity": {
+      "probability": "0.903712",
+      "end": "geo:35.171000,136.910300",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.821421"
+      },
+      "distanceMeters": "194.720636",
+      "start": "geo:35.170200,136.908500"
+    }
+  },
+  {
+    "endTime": "2026-05-16T09:33:00.000+09:00",
+    "startTime": "2026-05-16T09:27:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.170200,136.908500",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.170600,136.909400",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.171000,136.910300",
+        "durationMinutesOffsetFromStartTime": "6"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T10:40:00.000+09:00",
+    "startTime": "2026-05-16T09:33:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.633564",
+        "semanticType": "Unknown",
+        "placeID": "example-oasis-21",
+        "placeLocation": "geo:35.171000,136.910300"
+      },
+      "probability": "0.851885"
+    }
+  },
+  {
+    "endTime": "2026-05-16T11:10:00.000+09:00",
+    "startTime": "2026-05-16T10:40:00.000+09:00",
+    "activity": {
+      "probability": "0.981858",
+      "end": "geo:35.159200,136.901000",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.734665"
+      },
+      "distanceMeters": "1732.967625",
+      "start": "geo:35.171000,136.910300"
+    }
+  },
+  {
+    "endTime": "2026-05-16T11:10:00.000+09:00",
+    "startTime": "2026-05-16T10:40:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.171000,136.910300",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.170200,136.908500",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.167900,136.907733",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.165600,136.906967",
+        "durationMinutesOffsetFromStartTime": "13"
+      },
+      {
+        "point": "geo:35.163300,136.906200",
+        "durationMinutesOffsetFromStartTime": "18"
+      },
+      {
+        "point": "geo:35.161933,136.904467",
+        "durationMinutesOffsetFromStartTime": "22"
+      },
+      {
+        "point": "geo:35.160567,136.902733",
+        "durationMinutesOffsetFromStartTime": "26"
+      },
+      {
+        "point": "geo:35.159200,136.901000",
+        "durationMinutesOffsetFromStartTime": "30"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T13:05:00.000+09:00",
+    "startTime": "2026-05-16T11:10:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.832150",
+        "semanticType": "Searched Address",
+        "placeID": "example-osu-kannon",
+        "placeLocation": "geo:35.159200,136.901000"
+      },
+      "probability": "0.977450"
+    }
+  },
+  {
+    "endTime": "2026-05-16T13:13:00.000+09:00",
+    "startTime": "2026-05-16T13:05:00.000+09:00",
+    "activity": {
+      "probability": "0.957133",
+      "end": "geo:35.158000,136.905200",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.811071"
+      },
+      "distanceMeters": "452.227513",
+      "start": "geo:35.159200,136.901000"
+    }
+  },
+  {
+    "endTime": "2026-05-16T13:13:00.000+09:00",
+    "startTime": "2026-05-16T13:05:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.159200,136.901000",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.158800,136.902400",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.158400,136.903800",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.158000,136.905200",
+        "durationMinutesOffsetFromStartTime": "8"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T13:28:00.000+09:00",
+    "startTime": "2026-05-16T13:16:00.000+09:00",
+    "activity": {
+      "probability": "0.904612",
+      "end": "geo:35.128300,136.904300",
+      "topCandidate": {
+        "type": "in subway",
+        "probability": "0.940371"
+      },
+      "distanceMeters": "3543.775340",
+      "start": "geo:35.158000,136.905200"
+    }
+  },
+  {
+    "endTime": "2026-05-16T13:28:00.000+09:00",
+    "startTime": "2026-05-16T13:16:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.158000,136.905200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.152967,136.904233",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.147933,136.903267",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.142900,136.902300",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.138033,136.902967",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.133167,136.903633",
+        "durationMinutesOffsetFromStartTime": "10"
+      },
+      {
+        "point": "geo:35.128300,136.904300",
+        "durationMinutesOffsetFromStartTime": "12"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T13:36:00.000+09:00",
+    "startTime": "2026-05-16T13:28:00.000+09:00",
+    "activity": {
+      "probability": "0.914281",
+      "end": "geo:35.128300,136.908700",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.732982"
+      },
+      "distanceMeters": "426.027955",
+      "start": "geo:35.128300,136.904300"
+    }
+  },
+  {
+    "endTime": "2026-05-16T13:36:00.000+09:00",
+    "startTime": "2026-05-16T13:28:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.128300,136.904300",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.128300,136.905400",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.128300,136.906500",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.128300,136.907600",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.128300,136.908700",
+        "durationMinutesOffsetFromStartTime": "8"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T15:20:00.000+09:00",
+    "startTime": "2026-05-16T13:36:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.901967",
+        "semanticType": "Unknown",
+        "placeID": "example-atsuta-jingu",
+        "placeLocation": "geo:35.128300,136.908700"
+      },
+      "probability": "0.793374"
+    }
+  },
+  {
+    "endTime": "2026-05-16T15:28:00.000+09:00",
+    "startTime": "2026-05-16T15:20:00.000+09:00",
+    "activity": {
+      "probability": "0.957578",
+      "end": "geo:35.127000,136.911000",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.878896"
+      },
+      "distanceMeters": "272.003983",
+      "start": "geo:35.128300,136.908700"
+    }
+  },
+  {
+    "endTime": "2026-05-16T15:28:00.000+09:00",
+    "startTime": "2026-05-16T15:20:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.128300,136.908700",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.127867,136.909467",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.127433,136.910233",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.127000,136.911000",
+        "durationMinutesOffsetFromStartTime": "8"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T15:44:00.000+09:00",
+    "startTime": "2026-05-16T15:34:00.000+09:00",
+    "activity": {
+      "probability": "0.954227",
+      "end": "geo:35.170900,136.881500",
+      "topCandidate": {
+        "type": "in train",
+        "probability": "0.717581"
+      },
+      "distanceMeters": "5822.132086",
+      "start": "geo:35.127000,136.911000"
+    }
+  },
+  {
+    "endTime": "2026-05-16T15:44:00.000+09:00",
+    "startTime": "2026-05-16T15:34:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.127000,136.911000",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.132500,136.907667",
+        "durationMinutesOffsetFromStartTime": "1"
+      },
+      {
+        "point": "geo:35.138000,136.904333",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.143500,136.901000",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.150350,136.896125",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.157200,136.891250",
+        "durationMinutesOffsetFromStartTime": "7"
+      },
+      {
+        "point": "geo:35.164050,136.886375",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.170900,136.881500",
+        "durationMinutesOffsetFromStartTime": "10"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T17:30:00.000+09:00",
+    "startTime": "2026-05-16T15:44:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.676205",
+        "semanticType": "Unknown",
+        "placeID": "example-nagoya-station",
+        "placeLocation": "geo:35.170900,136.881500"
+      },
+      "probability": "0.913296"
+    }
+  },
+  {
+    "endTime": "2026-05-16T17:52:00.000+09:00",
+    "startTime": "2026-05-16T17:34:00.000+09:00",
+    "activity": {
+      "probability": "0.942332",
+      "end": "geo:35.163000,136.953200",
+      "topCandidate": {
+        "type": "in subway",
+        "probability": "0.787961"
+      },
+      "distanceMeters": "7285.924308",
+      "start": "geo:35.170900,136.881500"
+    }
+  },
+  {
+    "endTime": "2026-05-16T17:52:00.000+09:00",
+    "startTime": "2026-05-16T17:34:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.170900,136.881500",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.170100,136.889400",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.169300,136.897300",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.169750,136.902900",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.170200,136.908500",
+        "durationMinutesOffsetFromStartTime": "7"
+      },
+      {
+        "point": "geo:35.170350,136.915150",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.170500,136.921800",
+        "durationMinutesOffsetFromStartTime": "10"
+      },
+      {
+        "point": "geo:35.170050,136.929050",
+        "durationMinutesOffsetFromStartTime": "12"
+      },
+      {
+        "point": "geo:35.169600,136.936300",
+        "durationMinutesOffsetFromStartTime": "13"
+      },
+      {
+        "point": "geo:35.167400,136.941933",
+        "durationMinutesOffsetFromStartTime": "15"
+      },
+      {
+        "point": "geo:35.165200,136.947567",
+        "durationMinutesOffsetFromStartTime": "16"
+      },
+      {
+        "point": "geo:35.163000,136.953200",
+        "durationMinutesOffsetFromStartTime": "18"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-16T18:00:00.000+09:00",
+    "startTime": "2026-05-16T17:52:00.000+09:00",
+    "activity": {
+      "probability": "0.944865",
+      "end": "geo:35.163900,136.958200",
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.783935"
+      },
+      "distanceMeters": "513.595768",
+      "start": "geo:35.163000,136.953200"
+    }
+  },
+  {
+    "endTime": "2026-05-16T18:00:00.000+09:00",
+    "startTime": "2026-05-16T17:52:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.163000,136.953200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.163300,136.954867",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.163600,136.956533",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "8"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T08:50:00.000+09:00",
+    "startTime": "2026-05-16T18:00:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.858628",
+        "semanticType": "Home",
+        "placeID": "example-home-nagoya",
+        "placeLocation": "geo:35.163900,136.958200"
+      },
+      "probability": "0.808583"
+    }
+  },
+  {
+    "endTime": "2026-05-17T09:08:00.000+09:00",
+    "startTime": "2026-05-17T08:50:00.000+09:00",
+    "activity": {
+      "probability": "0.956868",
+      "end": "geo:35.156700,136.975800",
+      "topCandidate": {
+        "type": "cycling",
+        "probability": "0.847055"
+      },
+      "distanceMeters": "1997.327876",
+      "start": "geo:35.163900,136.958200"
+    }
+  },
+  {
+    "endTime": "2026-05-17T09:08:00.000+09:00",
+    "startTime": "2026-05-17T08:50:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.163400,136.960400",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.162900,136.962600",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.161880,136.964820",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.160860,136.967040",
+        "durationMinutesOffsetFromStartTime": "9"
+      },
+      {
+        "point": "geo:35.159840,136.969260",
+        "durationMinutesOffsetFromStartTime": "11"
+      },
+      {
+        "point": "geo:35.158820,136.971480",
+        "durationMinutesOffsetFromStartTime": "13"
+      },
+      {
+        "point": "geo:35.157800,136.973700",
+        "durationMinutesOffsetFromStartTime": "16"
+      },
+      {
+        "point": "geo:35.156700,136.975800",
+        "durationMinutesOffsetFromStartTime": "18"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T11:45:00.000+09:00",
+    "startTime": "2026-05-17T09:08:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.869895",
+        "semanticType": "Unknown",
+        "placeID": "example-higashiyama-zoo",
+        "placeLocation": "geo:35.156700,136.975800"
+      },
+      "probability": "0.819105"
+    }
+  },
+  {
+    "endTime": "2026-05-17T12:04:00.000+09:00",
+    "startTime": "2026-05-17T11:45:00.000+09:00",
+    "activity": {
+      "probability": "0.997037",
+      "end": "geo:35.163900,136.958200",
+      "topCandidate": {
+        "type": "cycling",
+        "probability": "0.733058"
+      },
+      "distanceMeters": "1931.540554",
+      "start": "geo:35.156700,136.975800"
+    }
+  },
+  {
+    "endTime": "2026-05-17T12:04:00.000+09:00",
+    "startTime": "2026-05-17T11:45:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.156700,136.975800",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.157800,136.973700",
+        "durationMinutesOffsetFromStartTime": "2"
+      },
+      {
+        "point": "geo:35.158820,136.971480",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.159840,136.969260",
+        "durationMinutesOffsetFromStartTime": "7"
+      },
+      {
+        "point": "geo:35.160860,136.967040",
+        "durationMinutesOffsetFromStartTime": "10"
+      },
+      {
+        "point": "geo:35.161880,136.964820",
+        "durationMinutesOffsetFromStartTime": "12"
+      },
+      {
+        "point": "geo:35.162900,136.962600",
+        "durationMinutesOffsetFromStartTime": "15"
+      },
+      {
+        "point": "geo:35.163400,136.960400",
+        "durationMinutesOffsetFromStartTime": "17"
+      },
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "19"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T13:10:00.000+09:00",
+    "startTime": "2026-05-17T12:04:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.880142",
+        "semanticType": "Home",
+        "placeID": "example-home-nagoya",
+        "placeLocation": "geo:35.163900,136.958200"
+      },
+      "probability": "0.786476"
+    }
+  },
+  {
+    "endTime": "2026-05-17T13:35:00.000+09:00",
+    "startTime": "2026-05-17T13:10:00.000+09:00",
+    "activity": {
+      "probability": "0.948407",
+      "end": "geo:35.185600,136.899200",
+      "topCandidate": {
+        "type": "in passenger vehicle",
+        "probability": "0.710978"
+      },
+      "distanceMeters": "6464.144513",
+      "start": "geo:35.163900,136.958200"
+    }
+  },
+  {
+    "endTime": "2026-05-17T13:35:00.000+09:00",
+    "startTime": "2026-05-17T13:10:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.165800,136.950900",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.167700,136.943600",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.169600,136.936300",
+        "durationMinutesOffsetFromStartTime": "9"
+      },
+      {
+        "point": "geo:35.171960,136.930300",
+        "durationMinutesOffsetFromStartTime": "11"
+      },
+      {
+        "point": "geo:35.174320,136.924300",
+        "durationMinutesOffsetFromStartTime": "14"
+      },
+      {
+        "point": "geo:35.176680,136.918300",
+        "durationMinutesOffsetFromStartTime": "17"
+      },
+      {
+        "point": "geo:35.179040,136.912300",
+        "durationMinutesOffsetFromStartTime": "19"
+      },
+      {
+        "point": "geo:35.181400,136.906300",
+        "durationMinutesOffsetFromStartTime": "22"
+      },
+      {
+        "point": "geo:35.185600,136.899200",
+        "durationMinutesOffsetFromStartTime": "25"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T15:20:00.000+09:00",
+    "startTime": "2026-05-17T13:35:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.882891",
+        "semanticType": "Unknown",
+        "placeID": "example-nagoya-castle",
+        "placeLocation": "geo:35.185600,136.899200"
+      },
+      "probability": "0.887526"
+    }
+  },
+  {
+    "endTime": "2026-05-17T15:58:00.000+09:00",
+    "startTime": "2026-05-17T15:20:00.000+09:00",
+    "activity": {
+      "probability": "0.986672",
+      "end": "geo:35.090600,136.878600",
+      "topCandidate": {
+        "type": "in passenger vehicle",
+        "probability": "0.787849"
+      },
+      "distanceMeters": "13240.276753",
+      "start": "geo:35.185600,136.899200"
+    }
+  },
+  {
+    "endTime": "2026-05-17T15:58:00.000+09:00",
+    "startTime": "2026-05-17T15:20:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.185600,136.899200",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.181400,136.906300",
+        "durationMinutesOffsetFromStartTime": "3"
+      },
+      {
+        "point": "geo:35.173700,136.905500",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.166000,136.904700",
+        "durationMinutesOffsetFromStartTime": "8"
+      },
+      {
+        "point": "geo:35.158300,136.903900",
+        "durationMinutesOffsetFromStartTime": "11"
+      },
+      {
+        "point": "geo:35.150600,136.903100",
+        "durationMinutesOffsetFromStartTime": "13"
+      },
+      {
+        "point": "geo:35.142900,136.902300",
+        "durationMinutesOffsetFromStartTime": "16"
+      },
+      {
+        "point": "geo:35.134950,136.903425",
+        "durationMinutesOffsetFromStartTime": "19"
+      },
+      {
+        "point": "geo:35.127000,136.904550",
+        "durationMinutesOffsetFromStartTime": "22"
+      },
+      {
+        "point": "geo:35.119050,136.905675",
+        "durationMinutesOffsetFromStartTime": "24"
+      },
+      {
+        "point": "geo:35.111100,136.906800",
+        "durationMinutesOffsetFromStartTime": "27"
+      },
+      {
+        "point": "geo:35.106525,136.900450",
+        "durationMinutesOffsetFromStartTime": "30"
+      },
+      {
+        "point": "geo:35.101950,136.894100",
+        "durationMinutesOffsetFromStartTime": "32"
+      },
+      {
+        "point": "geo:35.097375,136.887750",
+        "durationMinutesOffsetFromStartTime": "34"
+      },
+      {
+        "point": "geo:35.092800,136.881400",
+        "durationMinutesOffsetFromStartTime": "37"
+      },
+      {
+        "point": "geo:35.090600,136.878600",
+        "durationMinutesOffsetFromStartTime": "38"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T17:40:00.000+09:00",
+    "startTime": "2026-05-17T15:58:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.819917",
+        "semanticType": "Unknown",
+        "placeID": "example-port-of-nagoya-aquarium",
+        "placeLocation": "geo:35.090600,136.878600"
+      },
+      "probability": "0.889175"
+    }
+  },
+  {
+    "endTime": "2026-05-17T18:25:00.000+09:00",
+    "startTime": "2026-05-17T17:40:00.000+09:00",
+    "activity": {
+      "probability": "0.945164",
+      "end": "geo:35.163900,136.958200",
+      "topCandidate": {
+        "type": "in passenger vehicle",
+        "probability": "0.935191"
+      },
+      "distanceMeters": "14911.623567",
+      "start": "geo:35.090600,136.878600"
+    }
+  },
+  {
+    "endTime": "2026-05-17T18:25:00.000+09:00",
+    "startTime": "2026-05-17T17:40:00.000+09:00",
+    "timelinePath": [
+      {
+        "point": "geo:35.090600,136.878600",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.092800,136.881400",
+        "durationMinutesOffsetFromStartTime": "1"
+      },
+      {
+        "point": "geo:35.097375,136.887750",
+        "durationMinutesOffsetFromStartTime": "4"
+      },
+      {
+        "point": "geo:35.101950,136.894100",
+        "durationMinutesOffsetFromStartTime": "6"
+      },
+      {
+        "point": "geo:35.106525,136.900450",
+        "durationMinutesOffsetFromStartTime": "9"
+      },
+      {
+        "point": "geo:35.111100,136.906800",
+        "durationMinutesOffsetFromStartTime": "12"
+      },
+      {
+        "point": "geo:35.119050,136.905675",
+        "durationMinutesOffsetFromStartTime": "15"
+      },
+      {
+        "point": "geo:35.127000,136.904550",
+        "durationMinutesOffsetFromStartTime": "18"
+      },
+      {
+        "point": "geo:35.134950,136.903425",
+        "durationMinutesOffsetFromStartTime": "21"
+      },
+      {
+        "point": "geo:35.142900,136.902300",
+        "durationMinutesOffsetFromStartTime": "24"
+      },
+      {
+        "point": "geo:35.148240,136.909100",
+        "durationMinutesOffsetFromStartTime": "26"
+      },
+      {
+        "point": "geo:35.153580,136.915900",
+        "durationMinutesOffsetFromStartTime": "29"
+      },
+      {
+        "point": "geo:35.158920,136.922700",
+        "durationMinutesOffsetFromStartTime": "32"
+      },
+      {
+        "point": "geo:35.164260,136.929500",
+        "durationMinutesOffsetFromStartTime": "35"
+      },
+      {
+        "point": "geo:35.169600,136.936300",
+        "durationMinutesOffsetFromStartTime": "38"
+      },
+      {
+        "point": "geo:35.167700,136.943600",
+        "durationMinutesOffsetFromStartTime": "40"
+      },
+      {
+        "point": "geo:35.165800,136.950900",
+        "durationMinutesOffsetFromStartTime": "43"
+      },
+      {
+        "point": "geo:35.163900,136.958200",
+        "durationMinutesOffsetFromStartTime": "45"
+      }
+    ]
+  },
+  {
+    "endTime": "2026-05-17T23:59:00.000+09:00",
+    "startTime": "2026-05-17T18:25:00.000+09:00",
+    "visit": {
+      "hierarchyLevel": "0",
+      "topCandidate": {
+        "probability": "0.775416",
+        "semanticType": "Home",
+        "placeID": "example-home-nagoya",
+        "placeLocation": "geo:35.163900,136.958200"
+      },
+      "probability": "0.909397"
+    }
+  }
+]

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="description" content="NausicaMap: relive your travels on an interactive map, right in your browser. No data is sent to any server." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>NausicaMap</title>
+  </head>
+  <body>
+    <div class="app" id="app">
+      <header class="topbar" id="topbar" hidden>
+        <button type="button" class="topbar__brand" id="home-button" data-i18n-attr="title:nav.homeTitle;aria-label:nav.homeTitle">
+          <img class="topbar__logo" src="/favicon.svg" alt="" width="28" height="28" />
+          <span>NausicaMap</span>
+        </button>
+        <div class="topbar__file">
+          <span class="topbar__filename" id="summary-filename"></span>
+          <span class="topbar__count" id="summary-count"></span>
+        </div>
+        <span class="privacy-badge" data-i18n="nav.localBadge" data-i18n-attr="title:nav.localBadgeTitle">🔒 Local processing</span>
+        <div class="topbar__language" data-language-switch></div>
+        <button type="button" class="button button--secondary" id="change-file-button" data-i18n="nav.changeFile">Change file</button>
+      </header>
+
+      <main class="landing" id="landing">
+        <div class="landing__bar">
+          <button type="button" class="button button--small" id="back-to-map-button" data-i18n="nav.backToMap" hidden>Back to the map</button>
+          <div class="landing__language" data-language-switch></div>
+        </div>
+
+        <section class="hero" aria-labelledby="landing-title">
+          <img class="hero__logo" src="/logo.svg" alt="" width="240" height="240" />
+          <div class="hero__content">
+            <h1 class="hero__title" id="landing-title">NausicaMap</h1>
+            <p class="hero__lead" data-i18n-html="landing.leadHtml"></p>
+
+            <div class="dropzone" id="dropzone">
+              <p class="dropzone__title" data-i18n="landing.importTitle">Import a location history</p>
+              <div class="dropzone__actions">
+                <button type="button" class="button button--primary" id="choose-file-button" data-i18n="landing.chooseFile">Choose a JSON file</button>
+                <button type="button" class="button button--secondary" id="demo-button" data-i18n="landing.tryDemo">Try with an example</button>
+              </div>
+              <p class="dropzone__hint" data-i18n-html="landing.dropHintHtml"></p>
+            </div>
+
+            <p class="hero__privacy" data-i18n-html="landing.privacyHtml"></p>
+          </div>
+        </section>
+
+        <section class="landing-section" aria-labelledby="features-title">
+          <h2 class="landing-section__title" id="features-title" data-i18n="landing.featuresTitle">What NausicaMap shows you</h2>
+          <ul class="features">
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">🗺️</span>
+              <h3 data-i18n="landing.features.placesTitle"></h3>
+              <p data-i18n="landing.features.placesText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">🔎</span>
+              <h3 data-i18n="landing.features.detailsTitle"></h3>
+              <p data-i18n="landing.features.detailsText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">➰</span>
+              <h3 data-i18n="landing.features.trajectoriesTitle"></h3>
+              <p data-i18n="landing.features.trajectoriesText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">⏯️</span>
+              <h3 data-i18n="landing.features.timelapseTitle"></h3>
+              <p data-i18n="landing.features.timelapseText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">📅</span>
+              <h3 data-i18n="landing.features.periodTitle"></h3>
+              <p data-i18n="landing.features.periodText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">📷</span>
+              <h3 data-i18n="landing.features.photoTitle"></h3>
+              <p data-i18n="landing.features.photoText"></p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="landing-section" aria-labelledby="export-title">
+          <h2 class="landing-section__title" id="export-title" data-i18n="landing.exportTitle"></h2>
+          <div class="export">
+            <div class="export__card">
+              <h3 data-i18n="landing.export.androidTitle"></h3>
+              <ol class="export__steps">
+                <li data-i18n-html="landing.export.androidStep1Html"></li>
+                <li data-i18n-html="landing.export.androidStep2Html"></li>
+                <li data-i18n-html="landing.export.androidStep3Html"></li>
+                <li data-i18n-html="landing.export.androidStep4Html"></li>
+              </ol>
+              <p class="export__note" data-i18n-html="landing.export.androidNoteHtml"></p>
+            </div>
+            <div class="export__card">
+              <h3 data-i18n="landing.export.iphoneTitle"></h3>
+              <ol class="export__steps">
+                <li data-i18n-html="landing.export.iphoneStep1Html"></li>
+                <li data-i18n-html="landing.export.iphoneStep2Html"></li>
+                <li data-i18n-html="landing.export.iphoneStep3Html"></li>
+                <li data-i18n-html="landing.export.iphoneStep4Html"></li>
+              </ol>
+              <p class="export__note" data-i18n-html="landing.export.iphoneNoteHtml"></p>
+            </div>
+            <div class="export__card">
+              <h3 data-i18n="landing.export.formatsTitle"></h3>
+              <ul class="export__list">
+                <li data-i18n-html="landing.export.formatAndroidHtml"></li>
+                <li data-i18n-html="landing.export.formatIphoneHtml"></li>
+                <li data-i18n-html="landing.export.formatGenericHtml"></li>
+              </ul>
+              <p class="export__note" data-i18n="landing.export.formatsNote"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="landing-section" aria-labelledby="privacy-title">
+          <h2 class="landing-section__title" id="privacy-title" data-i18n="landing.privacyTitle"></h2>
+          <ul class="features features--compact">
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">💻</span>
+              <h3 data-i18n="landing.privacy.localTitle"></h3>
+              <p data-i18n="landing.privacy.localText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">🚫</span>
+              <h3 data-i18n="landing.privacy.serverTitle"></h3>
+              <p data-i18n="landing.privacy.serverText"></p>
+            </li>
+            <li class="feature">
+              <span class="feature__icon" aria-hidden="true">🧹</span>
+              <h3 data-i18n="landing.privacy.keptTitle"></h3>
+              <p data-i18n="landing.privacy.keptText"></p>
+            </li>
+          </ul>
+        </section>
+
+        <footer class="landing-footer" data-i18n-html="landing.footerHtml"></footer>
+      </main>
+
+      <section class="map-view" id="map-view" data-i18n-attr="data-drop-label:landing.dropOverlay" hidden>
+        <div class="map" id="map" role="region" data-i18n-attr="aria-label:map.ariaLabel"></div>
+
+        <button type="button" class="photo-button" id="photo-button" data-i18n-attr="title:photo.buttonTitle">
+          <span aria-hidden="true">📷</span>
+          <span class="photo-button__label" data-i18n="photo.button">Photo</span>
+        </button>
+
+        <aside class="panel" id="panel" data-i18n-attr="aria-label:panel.title">
+          <button type="button" class="panel__toggle" id="panel-toggle" aria-expanded="true" aria-controls="panel-body">
+            <span data-i18n="panel.title">Display</span>
+            <span class="panel__chevron" aria-hidden="true">▾</span>
+          </button>
+          <div class="panel__body" id="panel-body">
+            <fieldset class="panel__group">
+              <legend data-i18n="panel.modes">Modes</legend>
+              <label class="option">
+                <input type="checkbox" id="mode-trajectories" />
+                <span class="option__text">
+                  <span class="option__title" data-i18n="panel.trajectories"></span>
+                  <span class="option__hint" data-i18n="panel.trajectoriesHint"></span>
+                </span>
+              </label>
+              <label class="option">
+                <input type="checkbox" id="mode-timelapse" />
+                <span class="option__text">
+                  <span class="option__title" data-i18n="panel.timelapse"></span>
+                  <span class="option__hint" data-i18n="panel.timelapseHint"></span>
+                </span>
+              </label>
+            </fieldset>
+
+            <fieldset class="panel__group">
+              <legend data-i18n="panel.period">Period</legend>
+              <label class="option">
+                <input type="checkbox" id="period-enabled" />
+                <span class="option__text">
+                  <span class="option__title" data-i18n="panel.filterByDates"></span>
+                  <span class="option__hint" data-i18n="panel.filterHint"></span>
+                </span>
+              </label>
+              <div class="period" id="period-fields">
+                <label class="period__field">
+                  <span data-i18n="panel.from">From</span>
+                  <input type="date" id="period-from" />
+                </label>
+                <label class="period__field">
+                  <span data-i18n="panel.to">To</span>
+                  <input type="date" id="period-to" />
+                </label>
+              </div>
+              <p class="panel__info" id="period-info" aria-live="polite"></p>
+              <div class="panel__actions">
+                <button type="button" class="button button--small" id="period-fit" data-i18n="panel.fit"></button>
+                <button type="button" class="button button--small" id="period-reset" data-i18n="panel.reset"></button>
+              </div>
+            </fieldset>
+
+            <div class="panel__group" id="legend" hidden>
+              <p class="panel__legend-title" data-i18n="panel.transport"></p>
+              <ul class="legend" id="legend-list"></ul>
+            </div>
+          </div>
+        </aside>
+
+        <div class="player" id="player" hidden>
+          <button type="button" class="player__play" id="player-play" data-i18n-attr="aria-label:player.play">▶</button>
+          <div class="player__timeline">
+            <input type="range" id="player-slider" min="0" max="1000" step="1" value="0" data-i18n-attr="aria-label:player.position" />
+            <span class="player__date" id="player-date"></span>
+          </div>
+          <select class="player__speed" id="player-speed" data-i18n-attr="aria-label:player.speed"></select>
+        </div>
+      </section>
+
+      <div class="status" id="status" role="status" aria-live="polite" hidden>
+        <div class="status__body">
+          <p class="status__title" id="status-title"></p>
+          <p class="status__detail" id="status-detail"></p>
+        </div>
+        <button type="button" class="status__close" id="status-close" data-i18n-attr="aria-label:status.close">×</button>
+      </div>
+
+      <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-dialog-title">
+        <div class="photo-dialog__header">
+          <h2 class="photo-dialog__title" id="photo-dialog-title" data-i18n="photo.dialogTitle"></h2>
+          <button type="button" class="photo-dialog__close" id="photo-close" data-i18n-attr="aria-label:status.close">×</button>
+        </div>
+
+        <img class="photo-dialog__preview" id="photo-preview" data-i18n-attr="alt:photo.previewAlt" alt="" />
+
+        <p class="photo-dialog__warning" data-i18n="photo.warning"></p>
+
+        <div class="photo-dialog__actions">
+          <button type="button" class="button button--primary" id="photo-download" data-i18n="photo.download"></button>
+          <button type="button" class="button button--secondary" id="photo-copy" data-i18n="photo.copy" hidden></button>
+        </div>
+
+        <p class="photo-dialog__status" id="photo-status" role="status" aria-live="polite"></p>
+        <p class="photo-dialog__privacy" data-i18n="photo.privacy"></p>
+      </dialog>
+
+      <input type="file" id="file-input" accept=".json,application/json" hidden />
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

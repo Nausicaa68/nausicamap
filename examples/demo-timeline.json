@@ -1,0 +1,748 @@
+{
+ "semanticSegments": [
+  {
+   "startTime": "2026-04-06T07:00:00.000+09:00",
+   "endTime": "2026-04-06T08:00:00.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "visit": {
+    "hierarchyLevel": 0,
+    "probability": 0.9,
+    "topCandidate": {
+     "placeId": "demo-hotel",
+     "semanticType": "SEARCHED_ADDRESS",
+     "probability": 0.8,
+     "placeLocation": {
+      "latLng": "35.3500000°, 136.9000000°"
+     }
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T08:00:00.000+09:00",
+   "endTime": "2026-04-06T09:46:44.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.3500000°, 136.9000000°"
+    },
+    "end": {
+     "latLng": "36.5500000°, 136.9000000°"
+    },
+    "distanceMeters": 133434,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_PASSENGER_VEHICLE",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T08:00:00.000+09:00",
+   "endTime": "2026-04-06T09:46:44.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "35.4423077°, 136.9000000°",
+     "time": "2026-04-06T08:08:12.000+09:00"
+    },
+    {
+     "point": "35.5346154°, 136.9000000°",
+     "time": "2026-04-06T08:16:25.000+09:00"
+    },
+    {
+     "point": "35.6269231°, 136.9000000°",
+     "time": "2026-04-06T08:24:38.000+09:00"
+    },
+    {
+     "point": "35.7192308°, 136.9000000°",
+     "time": "2026-04-06T08:32:50.000+09:00"
+    },
+    {
+     "point": "35.8115385°, 136.9000000°",
+     "time": "2026-04-06T08:41:03.000+09:00"
+    },
+    {
+     "point": "35.9038462°, 136.9000000°",
+     "time": "2026-04-06T08:49:16.000+09:00"
+    },
+    {
+     "point": "35.9961538°, 136.9000000°",
+     "time": "2026-04-06T08:57:28.000+09:00"
+    },
+    {
+     "point": "36.0884615°, 136.9000000°",
+     "time": "2026-04-06T09:05:41.000+09:00"
+    },
+    {
+     "point": "36.1807692°, 136.9000000°",
+     "time": "2026-04-06T09:13:54.000+09:00"
+    },
+    {
+     "point": "36.2730769°, 136.9000000°",
+     "time": "2026-04-06T09:22:06.000+09:00"
+    },
+    {
+     "point": "36.3653846°, 136.9000000°",
+     "time": "2026-04-06T09:30:19.000+09:00"
+    },
+    {
+     "point": "36.4576923°, 136.9000000°",
+     "time": "2026-04-06T09:38:32.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-06T09:46:44.000+09:00",
+   "endTime": "2026-04-06T10:40:07.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "36.5500000°, 136.9000000°"
+    },
+    "end": {
+     "latLng": "35.9500000°, 136.9000000°"
+    },
+    "distanceMeters": 66717,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_PASSENGER_VEHICLE",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T09:46:44.000+09:00",
+   "endTime": "2026-04-06T10:40:07.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "36.4642857°, 136.9000000°",
+     "time": "2026-04-06T09:54:22.000+09:00"
+    },
+    {
+     "point": "36.3785714°, 136.9000000°",
+     "time": "2026-04-06T10:01:59.000+09:00"
+    },
+    {
+     "point": "36.2928571°, 136.9000000°",
+     "time": "2026-04-06T10:09:37.000+09:00"
+    },
+    {
+     "point": "36.2071429°, 136.9000000°",
+     "time": "2026-04-06T10:17:14.000+09:00"
+    },
+    {
+     "point": "36.1214286°, 136.9000000°",
+     "time": "2026-04-06T10:24:52.000+09:00"
+    },
+    {
+     "point": "36.0357143°, 136.9000000°",
+     "time": "2026-04-06T10:32:29.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-06T10:40:07.000+09:00",
+   "endTime": "2026-04-06T12:02:56.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.9500000°, 136.9000000°"
+    },
+    "end": {
+     "latLng": "35.9500000°, 138.0500000°"
+    },
+    "distanceMeters": 103517,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_PASSENGER_VEHICLE",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T10:40:07.000+09:00",
+   "endTime": "2026-04-06T12:02:56.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "35.9500000°, 137.0150000°",
+     "time": "2026-04-06T10:48:24.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.1300000°",
+     "time": "2026-04-06T10:56:41.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.2450000°",
+     "time": "2026-04-06T11:04:57.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.3600000°",
+     "time": "2026-04-06T11:13:14.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.4750000°",
+     "time": "2026-04-06T11:21:31.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.5900000°",
+     "time": "2026-04-06T11:29:48.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.7050000°",
+     "time": "2026-04-06T11:38:05.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.8200000°",
+     "time": "2026-04-06T11:46:22.000+09:00"
+    },
+    {
+     "point": "35.9500000°, 137.9350000°",
+     "time": "2026-04-06T11:54:39.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-06T12:02:56.000+09:00",
+   "endTime": "2026-04-06T12:56:18.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.9500000°, 138.0500000°"
+    },
+    "end": {
+     "latLng": "36.5500000°, 138.0500000°"
+    },
+    "distanceMeters": 66717,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_PASSENGER_VEHICLE",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T12:02:56.000+09:00",
+   "endTime": "2026-04-06T12:56:18.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "36.0357143°, 138.0500000°",
+     "time": "2026-04-06T12:10:33.000+09:00"
+    },
+    {
+     "point": "36.1214286°, 138.0500000°",
+     "time": "2026-04-06T12:18:11.000+09:00"
+    },
+    {
+     "point": "36.2071429°, 138.0500000°",
+     "time": "2026-04-06T12:25:48.000+09:00"
+    },
+    {
+     "point": "36.2928571°, 138.0500000°",
+     "time": "2026-04-06T12:33:26.000+09:00"
+    },
+    {
+     "point": "36.3785714°, 138.0500000°",
+     "time": "2026-04-06T12:41:03.000+09:00"
+    },
+    {
+     "point": "36.4642857°, 138.0500000°",
+     "time": "2026-04-06T12:48:40.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-06T12:56:18.000+09:00",
+   "endTime": "2026-04-06T14:43:03.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "36.5500000°, 138.0500000°"
+    },
+    "end": {
+     "latLng": "35.3500000°, 138.0500000°"
+    },
+    "distanceMeters": 133434,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_PASSENGER_VEHICLE",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T12:56:18.000+09:00",
+   "endTime": "2026-04-06T14:43:03.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "36.4576923°, 138.0500000°",
+     "time": "2026-04-06T13:04:31.000+09:00"
+    },
+    {
+     "point": "36.3653846°, 138.0500000°",
+     "time": "2026-04-06T13:12:43.000+09:00"
+    },
+    {
+     "point": "36.2730769°, 138.0500000°",
+     "time": "2026-04-06T13:20:56.000+09:00"
+    },
+    {
+     "point": "36.1807692°, 138.0500000°",
+     "time": "2026-04-06T13:29:09.000+09:00"
+    },
+    {
+     "point": "36.0884615°, 138.0500000°",
+     "time": "2026-04-06T13:37:21.000+09:00"
+    },
+    {
+     "point": "35.9961538°, 138.0500000°",
+     "time": "2026-04-06T13:45:34.000+09:00"
+    },
+    {
+     "point": "35.9038462°, 138.0500000°",
+     "time": "2026-04-06T13:53:47.000+09:00"
+    },
+    {
+     "point": "35.8115385°, 138.0500000°",
+     "time": "2026-04-06T14:01:59.000+09:00"
+    },
+    {
+     "point": "35.7192308°, 138.0500000°",
+     "time": "2026-04-06T14:10:12.000+09:00"
+    },
+    {
+     "point": "35.6269231°, 138.0500000°",
+     "time": "2026-04-06T14:18:25.000+09:00"
+    },
+    {
+     "point": "35.5346154°, 138.0500000°",
+     "time": "2026-04-06T14:26:37.000+09:00"
+    },
+    {
+     "point": "35.4423077°, 138.0500000°",
+     "time": "2026-04-06T14:34:50.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-06T14:43:03.000+09:00",
+   "endTime": "2026-04-06T20:00:00.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "visit": {
+    "hierarchyLevel": 0,
+    "probability": 0.9,
+    "topCandidate": {
+     "placeId": "demo-onsen",
+     "semanticType": "UNKNOWN",
+     "probability": 0.8,
+     "placeLocation": {
+      "latLng": "35.3500000°, 138.0500000°"
+     }
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T09:00:00.000+09:00",
+   "endTime": "2026-04-07T09:41:51.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.3500000°, 138.7000000°"
+    },
+    "end": {
+     "latLng": "35.3500000°, 139.7000000°"
+    },
+    "distanceMeters": 90694,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_TRAIN",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T09:00:00.000+09:00",
+   "endTime": "2026-04-07T09:41:51.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "35.3500000°, 138.8111111°",
+     "time": "2026-04-07T09:04:39.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 138.9222222°",
+     "time": "2026-04-07T09:09:18.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.0333333°",
+     "time": "2026-04-07T09:13:57.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.1444444°",
+     "time": "2026-04-07T09:18:36.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.2555556°",
+     "time": "2026-04-07T09:23:15.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.3666667°",
+     "time": "2026-04-07T09:27:54.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.4777778°",
+     "time": "2026-04-07T09:32:33.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.5888889°",
+     "time": "2026-04-07T09:37:12.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-07T09:41:51.000+09:00",
+   "endTime": "2026-04-07T10:02:47.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.3500000°, 139.7000000°"
+    },
+    "end": {
+     "latLng": "35.3500000°, 139.2000000°"
+    },
+    "distanceMeters": 45347,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_TRAIN",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T09:41:51.000+09:00",
+   "endTime": "2026-04-07T10:02:47.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "35.3500000°, 139.6000000°",
+     "time": "2026-04-07T09:46:02.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.5000000°",
+     "time": "2026-04-07T09:50:13.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.4000000°",
+     "time": "2026-04-07T09:54:24.000+09:00"
+    },
+    {
+     "point": "35.3500000°, 139.3000000°",
+     "time": "2026-04-07T09:58:36.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-07T10:02:47.000+09:00",
+   "endTime": "2026-04-07T11:04:22.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "35.3500000°, 139.2000000°"
+    },
+    "end": {
+     "latLng": "36.5500000°, 139.2000000°"
+    },
+    "distanceMeters": 133434,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_TRAIN",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T10:02:47.000+09:00",
+   "endTime": "2026-04-07T11:04:22.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "35.4423077°, 139.2000000°",
+     "time": "2026-04-07T10:07:31.000+09:00"
+    },
+    {
+     "point": "35.5346154°, 139.2000000°",
+     "time": "2026-04-07T10:12:15.000+09:00"
+    },
+    {
+     "point": "35.6269231°, 139.2000000°",
+     "time": "2026-04-07T10:17:00.000+09:00"
+    },
+    {
+     "point": "35.7192308°, 139.2000000°",
+     "time": "2026-04-07T10:21:44.000+09:00"
+    },
+    {
+     "point": "35.8115385°, 139.2000000°",
+     "time": "2026-04-07T10:26:28.000+09:00"
+    },
+    {
+     "point": "35.9038462°, 139.2000000°",
+     "time": "2026-04-07T10:31:12.000+09:00"
+    },
+    {
+     "point": "35.9961538°, 139.2000000°",
+     "time": "2026-04-07T10:35:56.000+09:00"
+    },
+    {
+     "point": "36.0884615°, 139.2000000°",
+     "time": "2026-04-07T10:40:41.000+09:00"
+    },
+    {
+     "point": "36.1807692°, 139.2000000°",
+     "time": "2026-04-07T10:45:25.000+09:00"
+    },
+    {
+     "point": "36.2730769°, 139.2000000°",
+     "time": "2026-04-07T10:50:09.000+09:00"
+    },
+    {
+     "point": "36.3653846°, 139.2000000°",
+     "time": "2026-04-07T10:54:53.000+09:00"
+    },
+    {
+     "point": "36.4576923°, 139.2000000°",
+     "time": "2026-04-07T10:59:38.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-07T11:04:22.000+09:00",
+   "endTime": "2026-04-07T11:24:59.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "36.5500000°, 139.2000000°"
+    },
+    "end": {
+     "latLng": "36.5500000°, 138.7000000°"
+    },
+    "distanceMeters": 44663,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_TRAIN",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T11:04:22.000+09:00",
+   "endTime": "2026-04-07T11:24:59.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "36.5500000°, 139.0750000°",
+     "time": "2026-04-07T11:09:31.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 138.9500000°",
+     "time": "2026-04-07T11:14:40.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 138.8250000°",
+     "time": "2026-04-07T11:19:50.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-07T11:24:59.000+09:00",
+   "endTime": "2026-04-07T12:06:12.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "activity": {
+    "start": {
+     "latLng": "36.5500000°, 138.7000000°"
+    },
+    "end": {
+     "latLng": "36.5500000°, 139.7000000°"
+    },
+    "distanceMeters": 89327,
+    "probability": 0.97,
+    "topCandidate": {
+     "type": "IN_TRAIN",
+     "probability": 0.93
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-07T11:24:59.000+09:00",
+   "endTime": "2026-04-07T12:06:12.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelinePath": [
+    {
+     "point": "36.5500000°, 138.8111111°",
+     "time": "2026-04-07T11:29:34.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 138.9222222°",
+     "time": "2026-04-07T11:34:08.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.0333333°",
+     "time": "2026-04-07T11:38:43.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.1444444°",
+     "time": "2026-04-07T11:43:18.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.2555556°",
+     "time": "2026-04-07T11:47:53.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.3666667°",
+     "time": "2026-04-07T11:52:28.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.4777778°",
+     "time": "2026-04-07T11:57:03.000+09:00"
+    },
+    {
+     "point": "36.5500000°, 139.5888889°",
+     "time": "2026-04-07T12:01:38.000+09:00"
+    }
+   ]
+  },
+  {
+   "startTime": "2026-04-07T12:06:12.000+09:00",
+   "endTime": "2026-04-07T15:06:12.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "visit": {
+    "hierarchyLevel": 0,
+    "probability": 0.9,
+    "topCandidate": {
+     "placeId": "demo-station",
+     "semanticType": "UNKNOWN",
+     "probability": 0.8,
+     "placeLocation": {
+      "latLng": "36.5500000°, 139.7000000°"
+     }
+    }
+   }
+  },
+  {
+   "startTime": "2026-04-06T07:00:00.000+09:00",
+   "endTime": "2026-04-07T15:06:12.000+09:00",
+   "startTimeTimezoneUtcOffsetMinutes": 540,
+   "endTimeTimezoneUtcOffsetMinutes": 540,
+   "timelineMemory": {
+    "trip": {
+     "distanceFromOriginKms": 280,
+     "destinations": [
+      {
+       "identifier": {
+        "placeId": "demo-nagoya"
+       }
+      },
+      {
+       "identifier": {
+        "placeId": "demo-tokyo"
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "rawSignals": [
+  {
+   "position": {
+    "LatLng": "35.9500000°, 137.4750000°",
+    "accuracyMeters": 25,
+    "altitudeMeters": 640.0,
+    "source": "WIFI",
+    "speedMetersPerSecond": 20.8,
+    "timestamp": "2026-04-06T11:21:31.000+09:00"
+   }
+  },
+  {
+   "wifiScan": {
+    "deliveryTime": "2026-04-06T11:21:31.000+09:00",
+    "devicesRecords": [
+     {
+      "mac": 3000,
+      "rawRssi": -60
+     },
+     {
+      "mac": 3001,
+      "rawRssi": -61
+     },
+     {
+      "mac": 3002,
+      "rawRssi": -62
+     },
+     {
+      "mac": 3003,
+      "rawRssi": -63
+     },
+     {
+      "mac": 3004,
+      "rawRssi": -64
+     },
+     {
+      "mac": 3005,
+      "rawRssi": -65
+     }
+    ]
+   }
+  },
+  {
+   "activityRecord": {
+    "probableActivities": [
+     {
+      "type": "IN_ROAD_VEHICLE",
+      "confidence": 0.88
+     },
+     {
+      "type": "IN_VEHICLE",
+      "confidence": 0.1
+     }
+    ],
+    "timestamp": "2026-04-06T11:22:01.000+09:00"
+   }
+  }
+ ],
+ "userLocationProfile": {
+  "frequentPlaces": [
+   {
+    "placeId": "demo-hotel-profile",
+    "placeLocation": "35.3500000°, 136.9000000°",
+    "label": "HOME"
+   }
+  ]
+ }
+}
